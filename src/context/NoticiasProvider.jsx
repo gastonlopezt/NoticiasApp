@@ -28,6 +28,7 @@ const NoticiasProvider = ({children}) => {
             value={{
                 categoria,
                 handleChangeCategoria,
+                noticias,
             }}
         >
             {children}
