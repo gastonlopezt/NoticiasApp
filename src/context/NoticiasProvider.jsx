@@ -32,6 +32,8 @@ const NoticiasProvider = ({children}) => {
                 categoria,
                 handleChangeCategoria,
                 noticias,
+                totalNoticias,
+                
             }}
         >
             {children}
